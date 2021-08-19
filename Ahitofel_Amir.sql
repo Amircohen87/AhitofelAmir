@@ -276,9 +276,15 @@ CREATE TABLE [dbo].[Consults] (
     [SpouseLastName]      VARCHAR (30)                                       NULL,
     [SpouseAddress]       VARCHAR (100)                                      NULL,
     [SpouseGender]        TINYINT                                            NULL,
-    [StartDate]           DATE                                               NULL,
+למה ???
+[StartDate]           DATE                                               NULL,
+
+למה ??
+
     [EndDate]             DATE                                               NULL,
     [Fired?]              BIT                                                NULL,
+    
+    ???
     [SysStartTime]        DATETIME2 (7) GENERATED ALWAYS AS ROW START HIDDEN NOT NULL,
     [SysEndTime]          DATETIME2 (7) GENERATED ALWAYS AS ROW END HIDDEN   NOT NULL,
     CONSTRAINT [PK_Consults] PRIMARY KEY CLUSTERED ([EmpID] ASC),
